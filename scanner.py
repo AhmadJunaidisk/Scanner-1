@@ -1,3 +1,4 @@
+import os
 try:
     from bs4 import BeautifulSoup
 except ImportError:

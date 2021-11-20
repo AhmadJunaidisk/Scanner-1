@@ -6,7 +6,7 @@ except ImportError:
     print("[!] Menginstall Bs4")
     os.system("pip install bs4" if os.name == "nt" else "pip install bs4")
 try: 
-    import requests-html
+    import requests_html
     from requests_html import HTMLSession
 except ImportError:
     os.system('cls')

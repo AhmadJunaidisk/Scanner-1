@@ -6,12 +6,12 @@ except ImportError:
     print("[!] Menginstall Bs4")
     os.system("pip install bs4" if os.name == "nt" else "pip install bs4")
 try: 
-    import requests_html
+    import requests-html
     from requests_html import HTMLSession
 except ImportError:
     os.system('cls')
     print("[!] Menginstall Request_html()")
-    os.system("pip install requests_html" if os.name == "nt" else "pip install requests_html")
+    os.system("pip install requests-html" if os.name == "nt" else "pip install requests_html")
 
 
 from bs4 import BeautifulSoup as xe

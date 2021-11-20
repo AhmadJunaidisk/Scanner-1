@@ -11,7 +11,7 @@ try:
 except ImportError:
     os.system('cls')
     print("[!] Menginstall Request_html()")
-    os.system("pip install requests-html" if os.name == "nt" else "pip install requests_html")
+    os.system("pip install requests_html" if os.name == "nt" else "pip install requests_html")
 
 
 from bs4 import BeautifulSoup as xe
